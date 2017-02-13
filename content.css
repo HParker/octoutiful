@@ -1,0 +1,13 @@
+div.header {
+  height: 55px;
+  background-color: #52197e !important;
+}
+
+.author a {
+  color: #df46b7 !important;
+}
+
+
+.mini-repo-list-item {
+  background-color: #fef5ff !important;
+}

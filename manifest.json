@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "My Cool Extension",
+  "version": "0.1",
+  "content_scripts": [
+  {
+    "matches": [
+      "https://github.com/*"
+    ],
+    "js": ["content.js"],
+    "css": ["content.css"]
+  }
+]
+}
