@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "My Cool Extension",
-  "version": "0.1",
+  "name": "octoutiful",
+  "version": "1.0",
   "content_scripts": [
   {
     "matches": [
       "https://github.com/*"
     ],
-    "js": ["content.js"],
+    "js": [],
     "css": ["content.css"]
   }
 ]

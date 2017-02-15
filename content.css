@@ -3,9 +3,11 @@ div.header {
   background: linear-gradient(to right, rgb(177, 127, 181), rgb(226, 204, 132));
 }
 
-h1 a {
-  color: black !important;
+.select-menu-button {
+  background-color: blue !important;
+  background-image: linear-gradient(blue, blue) @important;
 }
+
 .mini-repo-list-item {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
 }
