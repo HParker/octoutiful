@@ -1,6 +1,6 @@
 div.header {
   height: 55px;
-  background: linear-gradient(to right, #925c98 , #443c25);
+  background: linear-gradient(to right, rgb(177, 127, 181), rgb(226, 204, 132));
 }
 
 h1 a {
@@ -14,9 +14,12 @@ h1 a {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
 }
 
+.commit-tease {
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+}
+
 .pagehead {
-  /* background-color: #dcf9f6 !important; */
-  background: linear-gradient(to right, #fbd3ff , #7b6629);
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
 }
 
 .reponav-item {
