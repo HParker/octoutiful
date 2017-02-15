@@ -10,7 +10,7 @@ h1 a {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
 }
 
-.readme h3 {
+.readme h1, h2, h3 {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
 }
 
