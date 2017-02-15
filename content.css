@@ -1,13 +1,24 @@
 div.header {
   height: 55px;
-  background-color: #52197e !important;
+  background: linear-gradient(to right, #925c98 , #443c25);
 }
 
-.author a {
-  color: #df46b7 !important;
+h1 a {
+  color: black !important;
 }
-
-
 .mini-repo-list-item {
   background-color: #fef5ff !important;
+}
+
+.pagehead {
+  /* background-color: #dcf9f6 !important; */
+  background: linear-gradient(to right, #fbd3ff , #7b6629);
+}
+
+.reponav-item {
+  color: black !important;
+}
+
+.reponav-item svg {
+  color: black !important;
 }
