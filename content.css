@@ -3,6 +3,14 @@ div.header {
   background: linear-gradient(to right, rgb(177, 127, 181), rgb(226, 204, 132));
 }
 
+.notification-indicator .mail-status {
+  border: 0px !important;
+}
+
+.header-search-scope {
+  border-right: 1px solid #f1e8e7 !important;
+}
+
 .mini-repo-list-item {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
 }
