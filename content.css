@@ -1,6 +1,11 @@
 div.header {
   height: 55px;
   background: linear-gradient(to right, rgb(177, 127, 181), rgb(226, 204, 132));
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  background-size: 1800% 1800%;
 }
 
 .notification-indicator .mail-status {
@@ -38,26 +43,56 @@ span.counter {
 
 .comment-form-head {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207)) !important;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  background-size: 1800% 1800%;
 }
 
 .timeline-comment-header {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  background-size: 1800% 1800%;
 }
 
 .mini-repo-list-item, .file-header {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  background-size: 1800% 1800%;
 }
 
 .readme h3 {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  background-size: 1800% 1800%;
 }
 
 .commit-tease {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  background-size: 1800% 1800%;
 }
 
 .pagehead {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  background-size: 1800% 1800%;
 }
 
 .reponav-item {
@@ -70,4 +105,30 @@ span.counter {
 
 .table-list-header {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  background-size: 1800% 1800%;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }
