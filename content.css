@@ -11,11 +11,44 @@ div.header {
   border-right: 1px solid #f1e8e7 !important;
 }
 
-.mini-repo-list-item {
+.header-nav-link {
+  color: white !important;
+}
+
+span.counter {
+  background-color: white;
+}
+
+.timeline-comment-avatar {
+  border-radius: 50% !important;
+}
+
+.timeline-commits .commit-message > code a {
+  font-size: 10pt !important;
+}
+
+.header-search-scope {
+  color: white !important;
+}
+
+
+.reponav-item.selected {
+  border-color: #f3a3de #e5e5e5 transparent !important;
+}
+
+.comment-form-head {
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207)) !important;
+}
+
+.timeline-comment-header {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
 }
 
-.readme h1, .readme h2, .readme h3 {
+.mini-repo-list-item, .file-header {
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+}
+
+.readme h3 {
   background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
 }
 

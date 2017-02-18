@@ -1,14 +1,21 @@
 {
   "manifest_version": 2,
-  "name": "octoutiful",
-  "version": "1.0",
+  "name": "Octoutiful",
+  "version": "1.2",
   "content_scripts": [
-  {
-    "matches": [
-      "https://github.com/*"
-    ],
-    "js": [],
-    "css": ["content.css"]
-  }
-]
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [],
+      "css": ["content.css"]
+    }
+  ],
+  "description": "Make Github Beautiful",
+
+  "author": "HParker",
+
+
+  "short_name": "Octoutiful",
+  "version_name": "ONEderful"
 }
