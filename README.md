@@ -1,7 +1,7 @@
 # octoutiful
 Make github pretty
 
-![screenshot](animated.gif)
+![screenshot](screenshot.png)
 
 How to install:
 

@@ -1,11 +1,6 @@
 div.header {
   height: 55px;
-  background: linear-gradient(to right, rgb(177, 127, 181), rgb(226, 204, 132));
-  -webkit-animation: rainbow 18s ease infinite;
-  -z-animation: rainbow 18s ease infinite;
-  -o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;
-  background-size: 1800% 1800%;
+  background: linear-gradient(to right, rgb(177, 127, 181), rgb(128, 189, 189), rgb(255, 243, 207));
 }
 
 .notification-indicator .mail-status {
@@ -42,57 +37,71 @@ span.counter {
 }
 
 .comment-form-head {
-  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207)) !important;
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207), rgb(165, 255, 255)) !important;
   -webkit-animation: rainbow 18s ease infinite;
   -z-animation: rainbow 18s ease infinite;
   -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;
-  background-size: 1800% 1800%;
+  background-size: 240% 240%;
+}
+
+.boxed-group > h3 {
+  background: linear-gradient(to right, rgb(177, 127, 181), rgb(128, 189, 189), rgb(255, 243, 207));
+  color: white;
+}
+
+.private .mini-repo-list-item {
+  background-color: #fdf7ff !important;
+}
+
+.boxed-group .counter {
+  background-color: white !important;
+  color: black !important;
 }
 
 .timeline-comment-header {
-  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207), rgb(165, 255, 255));
   -webkit-animation: rainbow 18s ease infinite;
   -z-animation: rainbow 18s ease infinite;
   -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;
-  background-size: 1800% 1800%;
+  background-size: 240% 240%;
 }
 
-.mini-repo-list-item, .file-header {
-  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+.file-header {
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207), rgb(165, 255, 255));
   -webkit-animation: rainbow 18s ease infinite;
   -z-animation: rainbow 18s ease infinite;
   -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;
-  background-size: 1800% 1800%;
+  background-size: 240% 240%;
 }
 
 .readme h3 {
-  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207), rgb(165, 255, 255));
   -webkit-animation: rainbow 18s ease infinite;
   -z-animation: rainbow 18s ease infinite;
   -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;
-  background-size: 1800% 1800%;
+  background-size: 240% 240%;
 }
 
 .commit-tease {
-  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207), rgb(165, 255, 255));
   -webkit-animation: rainbow 18s ease infinite;
   -z-animation: rainbow 18s ease infinite;
   -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;
-  background-size: 1800% 1800%;
+  background-size: 240% 240%;
 }
 
 .pagehead {
-  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207), rgb(165, 255, 255));
   -webkit-animation: rainbow 18s ease infinite;
   -z-animation: rainbow 18s ease infinite;
   -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;
-  background-size: 1800% 1800%;
+  background-size: 240% 240%;
 }
 
 .reponav-item {
@@ -104,12 +113,12 @@ span.counter {
 }
 
 .table-list-header {
-  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207));
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207), rgb(165, 255, 255));
   -webkit-animation: rainbow 18s ease infinite;
   -z-animation: rainbow 18s ease infinite;
   -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;
-  background-size: 1800% 1800%;
+  background-size: 240% 240%;
 }
 
 @-webkit-keyframes rainbow {
